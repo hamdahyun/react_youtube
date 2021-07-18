@@ -1,0 +1,40 @@
+.video{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: 1px solid lightgray;
+    margin-bottom: 0.2em;
+    background: #fff;
+}
+.video .thumbnail{
+    width: 40%;
+}
+.box{
+    padding: 1em;
+}
+.title, .channel{
+    margin: 0;
+}
+.title{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    color: #030303;
+    font-weight: bold;
+}
+.channel{
+    margin-top: 10px;
+    font-weight: 400;
+    color: #999;
+}
+
+.video:hover .thumbnail{
+    transform: scale(1.02)
+}
+.video:hover .title{
+    text-decoration: underline;
+}
