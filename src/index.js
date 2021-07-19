@@ -5,6 +5,7 @@ import App from './app'
 import Youtube from './service/youtube'
 
 const youtube = new Youtube(process.env.REACT_APP_YOUTUBE_API_KEY)
+console.log(process.env.REACT_APP_YOUTUBE_API_KEY)
 ReactDOM.render(
   // 위에서 만든 youtube를 전달.
   <App youtube={youtube} />,

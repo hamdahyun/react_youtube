@@ -1,11 +1,27 @@
+.container {
+    padding: 0.2em;
+}
+.container.grid{
+    width: 50%;
+}
+.container.list{
+    width: 100%; 
+}
 .video{
     overflow: hidden;
-    display: flex;
-    align-items: center;
     width: 50%;
     border: 1px solid lightgray;
     margin-bottom: 0.2em;
     background: #fff;
+}
+.videoButton {
+    display: flex;
+    align-items: center;
+    border:0;
+    background:0;
+    width:100%;
+    height:100%;
+    text-align: left;
 }
 .video .thumbnail{
     width: 40%;
